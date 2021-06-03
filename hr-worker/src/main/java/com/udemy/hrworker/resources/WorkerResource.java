@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.udemy.hrworker.entities.Worker;
 import com.udemy.hrworker.repositories.WorkerRepository;
+
 @RefreshScope
 @RestController
 @RequestMapping(value = "/workers")
